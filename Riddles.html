@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="Riddles.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="header">
+            <a href="index.html">Главная</a> <span>/</span>
+            <a href="Riddles.html">Загадки</a> <span>/</span>
+            <a href="Guess_1.html">Угадайка</a> <span>/</span>
+            <a href="Guess_2.html">Угадайка мультиплеер</a>
+        </div>
+        <h1>Личный сайт студента GeekBrains</h1>
+        <div id="center"> 
+            <div id="box">
+            <h3>Викторина</h3>
+                <p><strong>Привет, тебя ожидает викторина из 3 загадок. Тебе дается 3 попытки, чтобы отгадать все загадки</strong></p>
+                <p>Кто в детстве ходит на 4 ногах, в зралости на 2, а в старости на 3?</p>
+                <input type="text"  id="userAnswer1">
+                <p>Я нашел её в лесу, чем дольше я её искал, тем дальше она от меня уходила, я принес её в руке, хотя и не нашел</p>
+                <input type="text"  id="userAnswer2">
+                <p>Что может в одно и то же время: стоять и ходить, висеть и стоять, ходить и лежать?</p>
+                <input type="text"  id="userAnswer3">
+                <br />
+                <input id="responceButton" type="button" value="Попытка №1" onclick="playRiddles()"/>
+            </div>
+        </div>
+    </div>
+    <div id="footer">Copyright © 2017 <a href="https://geekbrains.ru/" target="_blank">GeekBrains</a></div>
+</body>
+
+</html>

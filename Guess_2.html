@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="Guess_2.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="header">
+            <a href="index.html">Главная</a> <span>/</span>
+            <a href="Riddles.html">Загадки</a> <span>/</span>
+            <a href="Guess_1.html">Угадайка</a> <span>/</span>
+            <a href="Guess_2.html">Угадайка мультиплеер</a>
+        </div>
+        <h1>Личный сайт студента GeekBrains</h1>
+        <div id="center"> 
+            <div id="box">
+                <h3>Здесь ты можешь сыграть в игру "Угадай число" со своими друзьями</h3>
+                <p><strong>Правила игры:</strong>
+                    <ol>
+                        <li>Компьютер загадывает число от 0 до 100</li>                  
+                        <li>Вам дается неограниченное количество попыток, чтобы угадать это число</li>  
+                        <li>В игру могут играть от 1 до 5 человек</li>                 
+                        <li>Чтобы выйти из иргы ввелите "q", но тогда победителем будет считаться компьютер</li>
+                    </ol>
+                </p>
+                <p>Удачи!!!</p>
+
+
+                <div class="radio_buttons">
+                    <div>
+                        <input type="radio" name="numberOfPlayers" id="radio1" value="1" checked />
+                        <label for="radio1">1 игрок</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfPlayers" id="radio2" value="2" />
+                        <label for="radio2">2 игрока</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfPlayers" id="radio3" value="3" />
+                        <label for="radio3">3 игрока</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfPlayers" id="radio4" value="4" />
+                        <label for="radio4">4 игрока</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfPlayers" id="radio5" value="5" />
+                        <label for="radio5">5 игроков</label>
+                    </div>
+                </div>
+                <br />
+                
+                <input type="button" value="Начать игру" onclick="playTheGuessFindTheNumberMultyplayer()">
+            </div>
+        </div>
+    </div>
+    <div id="footer">Copyright © 2017 <a href="https://geekbrains.ru/" target="_blank">GeekBrains</a></div>
+</body>
+
+</html>
